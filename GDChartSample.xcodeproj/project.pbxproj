@@ -15,6 +15,8 @@
 		98328A0C1DB5F682002162DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98328A0A1DB5F682002162DE /* LaunchScreen.storyboard */; };
 		98328A181DB5F7F6002162DE /* GDChartDotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98328A151DB5F7F6002162DE /* GDChartDotButton.m */; };
 		98328A191DB5F7F6002162DE /* GDChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98328A171DB5F7F6002162DE /* GDChartView.m */; };
+		98FBE1E71DB6081000639E73 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FBE1E51DB6081000639E73 /* screenshot1.png */; };
+		98FBE1E81DB6081000639E73 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FBE1E61DB6081000639E73 /* screenshot2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		98328A151DB5F7F6002162DE /* GDChartDotButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDChartDotButton.m; sourceTree = "<group>"; };
 		98328A161DB5F7F6002162DE /* GDChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDChartView.h; sourceTree = "<group>"; };
 		98328A171DB5F7F6002162DE /* GDChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDChartView.m; sourceTree = "<group>"; };
+		98FBE1E51DB6081000639E73 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		98FBE1E61DB6081000639E73 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				98328A001DB5F682002162DE /* AppDelegate.m */,
 				98328A021DB5F682002162DE /* ViewController.h */,
 				98328A031DB5F682002162DE /* ViewController.m */,
+				98FBE1E51DB6081000639E73 /* screenshot1.png */,
+				98FBE1E61DB6081000639E73 /* screenshot2.png */,
 				98328A051DB5F682002162DE /* Main.storyboard */,
 				98328A081DB5F682002162DE /* Assets.xcassets */,
 				98328A0A1DB5F682002162DE /* LaunchScreen.storyboard */,
@@ -158,7 +164,9 @@
 			files = (
 				98328A0C1DB5F682002162DE /* LaunchScreen.storyboard in Resources */,
 				98328A091DB5F682002162DE /* Assets.xcassets in Resources */,
+				98FBE1E81DB6081000639E73 /* screenshot2.png in Resources */,
 				98328A071DB5F682002162DE /* Main.storyboard in Resources */,
+				98FBE1E71DB6081000639E73 /* screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
