@@ -20,3 +20,7 @@ NSArray *line2_vals = @[@(90),@(80),@(77),@(89),@(71),@(81),@(NSNotFound),@(91)]
                                   secondChartColor:[UIColor colorWithRed:46.0/255.0 green:187.0/255.0 blue:124.0/255.0 alpha:1.0]
                                       secondValues:line2_vals];
 ```
+## Demo
+
+![alt tag1](https://github.com/KevinLiou/GDChartView/blob/master/GDChartSample/screenshot1.png)
+![alt tag2](https://github.com/KevinLiou/GDChartView/blob/master/GDChartSample/screenshot2.png)
