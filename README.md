@@ -1,7 +1,7 @@
 # GDChartView
 ## 運行環境
 Xcode 8.0
-Swift 2.3
+Objective-C 2.0
 
 ## 透過線條繪製簡單的圖表
 
