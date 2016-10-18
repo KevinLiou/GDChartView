@@ -1,5 +1,5 @@
 # GDChartView
-透過線條繪製簡單的圖表
+## 透過線條繪製簡單的圖表
 
 1.支援autolayout
 
@@ -9,7 +9,7 @@
 
 4.如果沒有數值，則跳過。(填入NSNotFound)
 
-Example Code
+## Example Code
 ```objc
 NSArray *line1_vals = @[@(111),@(118),@(109),@(122),@(115),@(106),@(NSNotFound),@(120)];
 NSArray *line2_vals = @[@(90),@(80),@(77),@(89),@(71),@(81),@(NSNotFound),@(91)];
