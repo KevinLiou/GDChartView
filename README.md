@@ -1,4 +1,8 @@
 # GDChartView
+## 運行環境
+Xcode 8.0
+Swift 2.3
+
 ## 透過線條繪製簡單的圖表
 
 1.支援autolayout
