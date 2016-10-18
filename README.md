@@ -24,3 +24,8 @@ NSArray *line2_vals = @[@(90),@(80),@(77),@(89),@(71),@(81),@(NSNotFound),@(91)]
 
 ![alt tag1](https://github.com/KevinLiou/GDChartView/blob/master/GDChartSample/screenshot1.png)
 ![alt tag2](https://github.com/KevinLiou/GDChartView/blob/master/GDChartSample/screenshot2.png)
+
+
+
+
+[![Demo](http://img.youtube.com/vi/8ChRlkzgaAY/0.jpg)](http://www.youtube.com/watch?v=8ChRlkzgaAY)
