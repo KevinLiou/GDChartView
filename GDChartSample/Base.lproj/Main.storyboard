@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +17,70 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAX:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZ5-OV-lVB">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="62x-Px-C0m"/>
+                                    <constraint firstAttribute="width" constant="82" id="qC0-5I-rWK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point_blue" translatesAutoresizingMaskIntoConstraints="NO" id="mQ3-dD-LMX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="11" id="YaG-kL-48r"/>
+                                    <constraint firstAttribute="height" constant="11" id="vTd-gd-FdU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAX:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E45-5s-zFq">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="9v8-3z-Kdv"/>
+                                    <constraint firstAttribute="height" constant="21" id="TxS-Xg-qGT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point_brown" translatesAutoresizingMaskIntoConstraints="NO" id="Lqs-U9-kEO">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="11" id="efm-Ok-urd"/>
+                                    <constraint firstAttribute="width" constant="11" id="iHp-qr-u51"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iRn-nH-niL" customClass="GDChartView">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lqs-U9-kEO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="26" id="2wH-VE-LbA"/>
+                            <constraint firstItem="mQ3-dD-LMX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="7zy-k1-8fl"/>
+                            <constraint firstItem="Lqs-U9-kEO" firstAttribute="leading" secondItem="QZ5-OV-lVB" secondAttribute="trailing" constant="17" id="88R-Fo-wdt"/>
+                            <constraint firstItem="mQ3-dD-LMX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="26" id="HP9-0B-zh4"/>
+                            <constraint firstItem="QZ5-OV-lVB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="21" id="V4i-WV-faS"/>
+                            <constraint firstItem="E45-5s-zFq" firstAttribute="leading" secondItem="Lqs-U9-kEO" secondAttribute="trailing" constant="8" id="Xnz-zl-0ZN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iRn-nH-niL" secondAttribute="bottom" id="apE-Iq-NPs"/>
+                            <constraint firstAttribute="trailing" secondItem="iRn-nH-niL" secondAttribute="trailing" id="eaQ-oQ-2Vv"/>
+                            <constraint firstItem="QZ5-OV-lVB" firstAttribute="leading" secondItem="mQ3-dD-LMX" secondAttribute="trailing" constant="8" id="lxd-vQ-iaX"/>
+                            <constraint firstItem="iRn-nH-niL" firstAttribute="top" secondItem="E45-5s-zFq" secondAttribute="bottom" constant="8" id="umI-Ve-WfQ"/>
+                            <constraint firstItem="iRn-nH-niL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vwt-Jc-Ayq"/>
+                            <constraint firstItem="E45-5s-zFq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="21" id="y21-KD-qMZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chartView" destination="iRn-nH-niL" id="Lvm-Mh-eXx"/>
+                        <outlet property="label1" destination="QZ5-OV-lVB" id="WEw-Rs-6tv"/>
+                        <outlet property="label2" destination="E45-5s-zFq" id="zRn-qH-nvy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="point_blue" width="11" height="11"/>
+        <image name="point_brown" width="11" height="11"/>
+    </resources>
 </document>

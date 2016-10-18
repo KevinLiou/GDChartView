@@ -13,6 +13,8 @@
 		98328A071DB5F682002162DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98328A051DB5F682002162DE /* Main.storyboard */; };
 		98328A091DB5F682002162DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98328A081DB5F682002162DE /* Assets.xcassets */; };
 		98328A0C1DB5F682002162DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98328A0A1DB5F682002162DE /* LaunchScreen.storyboard */; };
+		98328A181DB5F7F6002162DE /* GDChartDotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98328A151DB5F7F6002162DE /* GDChartDotButton.m */; };
+		98328A191DB5F7F6002162DE /* GDChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98328A171DB5F7F6002162DE /* GDChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		98328A081DB5F682002162DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98328A0B1DB5F682002162DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98328A0D1DB5F682002162DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98328A141DB5F7F6002162DE /* GDChartDotButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDChartDotButton.h; sourceTree = "<group>"; };
+		98328A151DB5F7F6002162DE /* GDChartDotButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDChartDotButton.m; sourceTree = "<group>"; };
+		98328A161DB5F7F6002162DE /* GDChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDChartView.h; sourceTree = "<group>"; };
+		98328A171DB5F7F6002162DE /* GDChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		983289FB1DB5F682002162DE /* GDChartSample */ = {
 			isa = PBXGroup;
 			children = (
+				98328A131DB5F7D6002162DE /* GDChart */,
 				983289FF1DB5F682002162DE /* AppDelegate.h */,
 				98328A001DB5F682002162DE /* AppDelegate.m */,
 				98328A021DB5F682002162DE /* ViewController.h */,
@@ -77,6 +84,17 @@
 				983289FD1DB5F682002162DE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98328A131DB5F7D6002162DE /* GDChart */ = {
+			isa = PBXGroup;
+			children = (
+				98328A141DB5F7F6002162DE /* GDChartDotButton.h */,
+				98328A151DB5F7F6002162DE /* GDChartDotButton.m */,
+				98328A161DB5F7F6002162DE /* GDChartView.h */,
+				98328A171DB5F7F6002162DE /* GDChartView.m */,
+			);
+			name = GDChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				98328A041DB5F682002162DE /* ViewController.m in Sources */,
+				98328A181DB5F7F6002162DE /* GDChartDotButton.m in Sources */,
 				98328A011DB5F682002162DE /* AppDelegate.m in Sources */,
 				983289FE1DB5F682002162DE /* main.m in Sources */,
+				98328A191DB5F7F6002162DE /* GDChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +330,7 @@
 				98328A121DB5F682002162DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
